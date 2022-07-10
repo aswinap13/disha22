@@ -4,6 +4,9 @@
   width: 100vw;
   height: 100vh;
   background-color: rgb(9, 25, 25);
+  background: url(../src/img/disha22.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 .marry{
   z-index: 10;
@@ -43,8 +46,11 @@
 }
 
 @media only screen and (max-width: 865px) {
-  .marry{
-    display: none;
+  .App{
+    background: url(../src/img/reel.jpg);
+    background-repeat: no-repeat;
+    background-size:100vw;
+    background-color: rgb(1, 194, 194);
   }
   .nav-ul li{
     font-size: 16px;
