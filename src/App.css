@@ -1,4 +1,6 @@
 .App {
+  font-family: 'Josefin Sans', sans-serif;
+
   color: white;
   text-align: center;
   width: 100vw;
@@ -7,6 +9,16 @@
   background: url(../src/img/disha22.png);
   background-repeat: no-repeat;
   background-size: 100vw;
+}
+.appl{
+  background-color: aqua;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
 }
 .marry{
   z-index: 10;
@@ -34,6 +46,7 @@
   text-decoration: none;
   margin: 0px 2rem;
   font-size: 26px;
+  cursor: pointer;
 }
 .bgleaves{
   position: absolute;
