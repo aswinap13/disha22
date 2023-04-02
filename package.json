@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@splinetool/react-spline": "^2.2.1",
+    "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.73",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -42,5 +42,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aswinap13/disha22.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aswinap13/disha22/issues"
+  },
+  "homepage": "https://github.com/aswinap13/disha22#readme"
 }

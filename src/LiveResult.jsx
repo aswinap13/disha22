@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './liver.css'
 function LiveResult() {
   return (
-    <div>LiveResult</div>
+    <div className='liver'>LiveResult</div>
   )
 }
 
