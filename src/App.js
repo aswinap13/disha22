@@ -21,8 +21,8 @@ function App() {
   return (
     <div className="App">
 
-
-      <Router>
+HI
+      {/* <Router>
         <Routes>
           <Route path="/" element={
               loading ?
@@ -44,7 +44,7 @@ function App() {
           <Route path="/schedule" element={<Schedule />} />
         </Routes>
       </Router>
-      
+       */}
     </div>
   )
 

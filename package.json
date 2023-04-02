@@ -13,17 +13,21 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-spinners": "^0.13.3",
+    "react-spline": "^1.2.1",
     "react-tsparticles": "^2.1.3",
     "react-use-media-query-hook": "^0.0.1",
     "tsparticles": "^2.1.3",
     "tsparticles-engine": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
+
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "develop": "concurrently \"react-scripts start\" \" nodemon ./src/services/server.js\"",
+    "start": "concurrently \"react-scripts start\" \" node ./src/services/server.js\"",
+    "build": "CI=false react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "seeds": "node ./src/services/seeds/index.js"
   },
   "eslintConfig": {
     "extends": [
